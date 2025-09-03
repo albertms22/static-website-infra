@@ -1,9 +1,9 @@
-# Static Website Infrastructure
+#  Website Infrastructure with Terraform
 
-This project provisions the infrastructure for hosting a **static website on AWS** using Terraform.  
+This project provisions the infrastructure for hosting a **website on AWS** using Terraform.  
 It uses an **S3 bucket** for storage and can be extended to include **CloudFront** for CDN distribution.  
 
-> ⚠️ Note: The `site/` folder is ignored in Git. To run this project, add your own static files (e.g., `index.html`) into a local `site/` directory before deployment.
+> ⚠️ Note: The `site/` folder is wher your website file will go. To run this project, add your own you files (e.g., `index.html`) into the `site/` directory before deployment.
 
 ---
 
@@ -66,7 +66,7 @@ It uses an **S3 bucket** for storage and can be extended to include **CloudFront
 ├── outputs.tf            # Outputs for easy access
 ├── terraform.tfvars.example  # Example variable configuration
 ├── site/                 # Your static website files
-└── README.md             # Documentation
+└── README.md             # This file
    ```
    
 ## Notes
