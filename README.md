@@ -65,7 +65,7 @@ It uses an **S3 bucket** for storage and can be extended to include **CloudFront
 ├── variables.tf          # Input variables
 ├── outputs.tf            # Outputs for easy access
 ├── terraform.tfvars.example  # Example variable configuration
-├── site/                 # Your static website files (ignored in Git)
+├── site/                 # Your static website files
 └── README.md             # Documentation
    ```
    
