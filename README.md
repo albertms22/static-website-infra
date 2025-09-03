@@ -1,4 +1,4 @@
-# Terraform Static Website Infrastructure
+# Static Website Infrastructure
 
 This project provisions the infrastructure for hosting a **static website on AWS** using Terraform.  
 It uses an **S3 bucket** for storage and can be extended to include **CloudFront** for CDN distribution.  
