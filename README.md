@@ -1,5 +1,4 @@
-#  Website Infrastructure with Terraform
-
+#  Infrastructure as Code (IaC) for Website Deployment
 This project provisions the infrastructure for hosting a **website on AWS** using Terraform.  
 It uses an **S3 bucket** for storage and can be extended to include **CloudFront** for CDN distribution.  
 
