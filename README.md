@@ -32,41 +32,33 @@ It uses an **S3 bucket** for storage and can be extended to include **CloudFront
    git clone https://github.com/your-username/terraform-static-website.git
    cd terraform-static-website
 2. **Add your site files**
-   - Create a local site/ folder with at least an index.html file (<h1>Hello from Terraform!</h1>)
-
+   - Create a local site/ folder with at least an index.html file
+   ```bash
+   <h1>Hello from Terraform!</h1>
 3. **Initialize Terraform**
-   - terraform init
+   ```bash
+   terraform init
 4. **Review variables**
- Copy the example file and adjust as needed:
-   - cp terraform.tfvars.example terraform.tfvars
-
-
-## Deploy the infrastructure
-
-terraform apply
-
-
-## Access your site
-
-Once applied, Terraform will output the website endpoint.
-Example:
-http://my-demo-site.s3-website-us-east-1.amazonaws.com
+   - Copy the example file and adjust as needed:
+   ```bash
+   cp terraform.tfvars.example terraform.tfvars
+5. **Deploy the infrastructure**
+   ```bash
+   terraform apply
+6. Access your site
+   Once applied, Terraform will output the website endpoint. Example:
+   ```bash
+   http://my-demo-site.s3-website-us-east-1.amazonaws.com
 
 ## Cleanup
 
 To avoid AWS charges, always destroy resources when done:
-terraform destroy
+
+  - terraform destroy
 
 
 ## Project Structure
-
-.
-├── main.tf               # Core infrastructure
-├── variables.tf          # Input variables
-├── outputs.tf            # Outputs for easy access
-├── terraform.tfvars.example  # Example variable configuration
-├── site/                 # Your static website files (ignored in Git)
-└── README.md             # Documentation
+<pre> ```bash . ├── main.tf # Core infrastructure ├── variables.tf # Input variables ├── outputs.tf # Outputs for easy access ├── terraform.tfvars.example # Example variable configuration ├── site/ # Your static website files (ignored in Git) └── README.md # Documentation ``` </pre>
 
 
 ## Notes
