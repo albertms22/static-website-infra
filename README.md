@@ -71,7 +71,7 @@ It uses an **S3 bucket** for storage and can be extended to include **CloudFront
    
 ## Notes
 
-This project is for educational and portfolio purposes.
+This is for educational purposes.
 
 It does not include production hardening (e.g., HTTPS with ACM, custom domain, WAF).
 
