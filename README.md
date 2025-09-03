@@ -52,15 +52,23 @@ It uses an **S3 bucket** for storage and can be extended to include **CloudFront
 
 ## Cleanup
 
-To avoid AWS charges, always destroy resources when done:
-
-  - terraform destroy
-
+   To avoid AWS charges, always destroy resources when done:
+   ```bash
+   terraform destroy
+   ```
 
 ## Project Structure
-<pre> ```bash . ├── main.tf # Core infrastructure ├── variables.tf # Input variables ├── outputs.tf # Outputs for easy access ├── terraform.tfvars.example # Example variable configuration ├── site/ # Your static website files (ignored in Git) └── README.md # Documentation ``` </pre>
 
-
+   ```bash 
+.
+├── main.tf               # Core infrastructure
+├── variables.tf          # Input variables
+├── outputs.tf            # Outputs for easy access
+├── terraform.tfvars.example  # Example variable configuration
+├── site/                 # Your static website files (ignored in Git)
+└── README.md             # Documentation
+   ```
+   
 ## Notes
 
 This project is for educational and portfolio purposes.
