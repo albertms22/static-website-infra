@@ -39,7 +39,7 @@ It uses an **S3 bucket** for storage and can be extended to include **CloudFront
    ```bash
    terraform init
 4. **Review variables**
-   - Copy the example file and adjust as needed:
+ - Copy the example file and adjust as needed:
    ```bash
    cp terraform.tfvars.example terraform.tfvars
 5. **Deploy the infrastructure**
