@@ -1,5 +1,5 @@
-#  Infrastructure as Code (IaC) for Website Deployment
-This project provisions the infrastructure for hosting a **website on AWS** using Terraform.  
+#  Infrastructure as Code (IaC) for a static Website Deployment
+This project provisions the infrastructure for hosting a **static website on AWS** using Terraform.  
 It uses an **S3 bucket** for storage and can be extended to include **CloudFront** for CDN distribution.  
 
 > ⚠️ Note: The `site/` folder is wher your website file will go. To run this project, add your own you files (e.g., `index.html`) into the `site/` directory before deployment.
